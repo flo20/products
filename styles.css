@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  margin: 4rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.button-wrapper #cancel-product-button,
+.button-wrapper .delete-checkbox,
+.button-wrapper .add-product-button,
+.button-wrapper .save-product-button {
+  width: 8rem;
+  height: 2rem;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-right: 4rem;
+  text-align: center;
+  padding: 3px;
+}
+
+.footer-text {
+  text-align: center;
+  border-top: 1px solid #000;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#product_form, .product_form2 {
+  max-width: 700px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.box {
+  display: none;
+}
+
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+
+.form-field-measurements {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem 0;
+}
+
+.product-labels, .product-input {
+  width: 70%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+.product-labels {
+  text-align: left;
+  width: 25%;
+}
+
+#length, #height, #width, #size, #weight, #productType, .product-input {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}
+
+.product-description-container {
+  border: 1px solid black;
+  padding: 3rem;
+}
+.product-description-container .dimension-input {
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+  grid-gap: 20px;
+}
+
+.product {
+  border: 1px solid #000;
+  padding: 20px;
+}
+.product .product-description {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

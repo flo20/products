@@ -1,0 +1,53 @@
+// global classes
+
+* {
+  box-sizing: border-box;
+}
+    body{
+    margin: 0;
+    padding: 0;  
+    font-family: $fonts-raleway;
+    height: 100%;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $primary-color;
+    margin: 4rem;
+  }
+  
+  .button-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+     
+      & 
+       #cancel-product-button, 
+      .delete-checkbox,
+      .add-product-button,
+      .save-product-button{
+        width: 8rem;
+        height: 2rem;
+        border: 1px solid $primary-color;
+        border-radius: 4px;
+        margin-right: 4rem;
+        text-align: center;
+        padding: 3px;
+      }
+    
+  }
+
+  .footer-text{
+    text-align: center;
+    border-top: 1px solid $primary-color;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+  
+  }

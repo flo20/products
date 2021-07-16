@@ -1,0 +1,19 @@
+//Product list Page
+
+.product-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    grid-gap: 20px;
+}
+ .product {
+    border: 1px solid $primary-color;
+    padding: 20px;
+    & .product-description {
+        text-align: center;
+     }
+ }
+
+ 

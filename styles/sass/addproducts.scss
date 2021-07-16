@@ -1,0 +1,45 @@
+//  Add Product Forms    
+#product_form, .product_form2 {
+  max-width: 700px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.box{
+  display: none;
+}
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+.form-field-measurements{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem 0;
+}
+.product-labels, .product-input {
+  width: 70%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+.product-labels {
+  text-align: left;
+  width: 25%;
+}
+#length, #height, #width, #size, #weight,#productType, .product-input{
+  border: 2px solid #aaa;
+  border-radius: 2px;
+}
+
+.product-description-container{
+    border: 1px solid black;
+    padding: 3rem;
+    & .dimension-input{
+      margin:5px;
+    }
+}
+.hidden{
+  display: none;
+}
